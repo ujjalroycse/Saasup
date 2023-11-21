@@ -1,0 +1,782 @@
+@media all and (max-width:1200px){
+
+    .menu {
+        background-color: var(--color03);
+    }
+    .menu ul li a {
+        color: var(--color01);
+    }
+    .menu ul ul li a {
+        color: var(--color06);
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+    .feature-content {
+        margin-top: 25px;
+    }
+    .feature-img-content {
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 47px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .feature-img-content a {
+        font-size: 17px;
+    }
+
+    .popular-content h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .work-user-area ul li button {
+        padding: 15px 30px;
+        font-size: 22px;
+    }
+
+    .facebook-content {
+        padding: 90px 130px;
+    }
+    .facebook-text h3 {
+        font-size: 40px;
+    }
+
+    .feature-area02 {
+        padding: 0;
+    }
+
+    .trial-mail .btn01 {
+        margin-left: 10px;
+    }
+
+    .singleBlog-top-area h1{
+        font-size: 55px;
+    }
+    .jonePeeter-area p span {
+        font-size: 18px;
+    }
+    .jone-peater-btn a {
+        padding: 8px 23px;
+    }
+
+    .price-right-bottom-area{
+        margin-top: 30px;
+    }
+
+    
+    .business-area.section_padding {
+        padding-top: 0;
+    }
+
+    .career-area .titel-header h2 {
+        font-size: 42px;
+    }
+
+    .price-table-btn .btn01 {
+        margin-left: 35px;
+    }
+
+    .top-header h1 {
+        font-size: 65px;
+    }
+    .top-header p {
+        font-size: 22px;
+    }
+    
+
+
+}
+
+@media all and (min-width:992px){
+    .menu{
+        display: block !important;
+    }
+}
+
+@media all and (max-width:991px){
+
+    .header_area{
+        background: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-button{
+        display: none;
+    }
+    .logo_area{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-bars{
+        display: flex;
+        align-items: center;
+    }
+    .menu-bars .click-menu{
+        font-size: 30px;
+        padding: 5px 16px;
+        border-radius: 8px;
+        color: var(--color06);
+        background-color: var(--color02);
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .menu ul {
+        flex-direction: column;
+        position: absolute;
+        width: 70%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: var(--color04);
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .header-banner-area {
+        margin-top: 65px;
+    }
+    .section_padding {
+        padding: 60px 0;
+    }
+
+    h1 {
+        font-size: 58px;
+        max-width: 610px;
+        margin: auto;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 27px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .menu ul ul li a {
+        font-size: 16px;
+    }
+
+    .titel-btn {
+        padding: 15px 38px;
+    }
+    .header_content h1 {
+        margin-left: 0;
+    }
+    .header_content p {
+        font-size: 23px;
+    }
+
+    .top_padding {
+        padding: 50px 0 90px;
+    }
+
+    .top-header h1 {
+        font-size: 60px;
+    }
+    .top-header p {
+        font-size: 20px;
+    }
+
+    .about-mission-area {
+        padding-bottom: 0;
+    }
+    .about-counter h1 {
+        margin-bottom: 3px;
+        font-size: 47px;
+    }
+    .about-top-img img {
+        height: 400px;
+    }
+    .our-mission-right img {
+        height: auto;
+    }
+    .count-h1{
+        margin-bottom: 15px;
+    }
+
+    .feature-area02 {
+        padding: 0;
+    }
+    .feature_area {
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    .feature-img-content a {
+        font-size: 16px;
+    }
+
+    .facebook-content {
+        padding: 70px 90px;
+    }
+    .facebook-text h3 {
+        font-size: 30px;
+    }
+    .facebook-text img {
+        margin: 0;
+    }
+
+
+    .latest-blog-post {
+        padding-bottom: 0 !important;
+    }
+    .singleBlog-top-area {
+        padding-bottom: 40px;
+    }
+    .singleBlog-top-area h1 {
+        font-size: 45px;
+    }
+    .singleBlog-mid-text p {
+        padding: 0 50px;
+        font-size: 20px;
+    }
+    .singleBlog-content p {
+        font-size: 19px;
+    }
+    .singleBlog-content h3 {
+        font-size: 32px;
+    }
+
+    .platform-area::after {
+        background: none;
+    }
+    .platform-area::before {
+        background: url(../images/home-page/HeaderBackgroundLeft.svg) no-repeat 0 0 /cover;
+    }
+
+    .work-user-area ul li button {
+        padding: 13px 17px;
+        font-size: 20px;
+    }
+    .work-user-area ul li {
+        margin: 0 3px;
+    }
+    .work-area-image {
+        margin-top: 30px;
+    }
+
+    .career-area .titel-header h2 {
+        font-size: 38px;
+        padding-right: 0;
+    }
+    .career-right {
+        padding: 32px;
+    }
+    .career-right p {
+        font-size: 17px;
+    }
+    .career-right .btn01 {
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+    .career-right span,.career-right span small {
+        font-size: 16px;
+    }
+
+    .testimonial-content p {
+        font-size: 19px;
+    }
+
+    .integration-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .popular-content h3 {
+        font-size: 30px;
+    }
+    .popular-content {
+        margin-bottom: 25px;
+    }
+
+    .meaning-content {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .contactUs-icon i {
+        font-size: 25px;
+    }
+    .contactUs-icon span {
+        font-size: 17px;
+    }
+    .contactUs-top a {
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    .price-table-btn .btn01 {
+        margin-left: 5px;
+    }
+
+    .copyright-text {
+        flex-direction: column;
+    }
+    .copyright-text p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width:768px){
+
+    .header-banner-area {
+        margin-top: 50px;
+    }
+    .section_padding {
+        padding: 55px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        max-width: 470px;
+    }
+    h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+
+    .top_padding {
+        padding: 30px 0 65px;
+    }
+
+
+    .header_content p {
+        font-size: 20px;
+    }
+
+    .top-header h1 {
+        font-size: 47px;
+    }
+    .facebook-area .top-header h1 i {
+        padding: 28px 32px;
+        font-size: 38px;
+    }
+
+    .feature-area02 {
+        padding: 0;
+    }
+
+    .about-area {
+        padding-bottom: 20px;
+    }
+    
+    
+    .about-value-area {
+        padding-top: 0;
+    }
+    .about-head-content h2 {
+        font-size: 36px;
+    }
+    .about-top-img img {
+        height: 300px;
+    }
+    .our-mission-left h3 {
+        font-size: 40px;
+    }
+    .our-mission-left p {
+        font-size: 19px;
+    }
+
+    .blog-jonePeeter img {
+        width: 85px;
+        height: 85px;
+    }
+    .singleBlog-top-area h1 {
+        font-size: 42px;
+    }
+    .singleBlog-program {
+        margin: 40px 0;
+    }
+    .singleBlog-performance {
+        margin-bottom: 40px;
+    }
+    .singleBlog-favorite {
+        padding-bottom: 0;
+    }
+    .singleBlog-mid-text p {
+        padding: 0 28px;
+        font-size: 18px;
+    }
+
+    .work-user-area ul li {
+        margin: 0 5px;
+        margin-bottom: 7px;
+    }
+
+
+    .integration-area {
+        padding-bottom: 15px;
+    }
+    .integration-content {
+        grid-template-columns: auto;
+    }
+    .integration-content {
+        grid-gap: 15px;
+    }
+    .integration-text {
+        padding: 25px;
+    }
+    .integration-icon-text h5 {
+        font-size: 23px;
+    }
+    .integration-icon-text span {
+        font-size: 16px;
+    }
+    .integration-text a:last-child {
+        font-size: 16px;
+    }
+
+    .facebook-content {
+        padding: 35px 50px;
+    }
+    .facebook-text h3 {
+        font-size: 25px;
+    }
+    .facebook-text p {
+        margin: 18px 0;
+    }
+
+    .trial-mail .titel-btn {
+        padding: 13px;
+        padding-left: 30px;
+    }
+    .trial-mail .btn01 {
+        margin-left: 10px;
+    }
+
+    .price-table-btn .btn01 {
+        padding: 5px 17px;
+        margin-left: 0;
+    }
+
+    .price-left-area h2 {
+        font-size: 37px;
+    }
+    .price-right-area {
+        margin-top: 30px;
+    }
+
+    .popular-area {
+        padding: 30px 0;
+    }
+    .popular-content h3 {
+        font-size: 28px;
+    }
+
+    .meaning-content {
+        margin: 13px;
+        padding: 50px 0;
+    }
+
+    .contact-us-area {
+        background: none;
+    }
+    .business-area .titel-header {
+        margin-bottom: 30px;
+    }
+
+    .contact-accordion-header h2 {
+        font-size: 35px;
+    }
+    .accordion-area-width .accordion-item button {
+        font-size: 18px;
+    }
+    .accordion-area-width .accordion-item p {
+        font-size: 17px;
+        padding: 0 30px;
+    }
+    .contactUs-mail-number {
+        flex-direction: column;
+    }
+    .form-name {
+        margin-bottom: 15px;
+    }
+    .form-company {
+        margin-bottom: 15px;
+    }
+    .form-name input, .form-company input {
+        margin-bottom: 15px;
+    }
+    .form-message textarea {
+        height: 120px;
+        margin-bottom: 40px;
+    }
+
+    .footer-left {
+        margin-bottom: 25px;
+    }
+    .footer-mid {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width:575px){
+
+
+    .btn01, .btn02, .btn03, .titel-btn {
+        padding: 13px 30px;
+    }
+    .btn01,.btn02,.btn03 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 17px;
+    }
+
+    .top_padding {
+        padding: 18px 0 45px;
+    }
+
+    .top-header h1 {
+        font-size: 42px;
+    }
+    .facebook-area .top-header h1 i {
+        padding: 25px 30px;
+        font-size: 35px;
+    }
+
+    .header-button .btn03 {
+        margin-left: 10px;
+        padding: 10px 7px 10px 20px;
+    }
+    .btn03 i {
+        font-size: 29px;
+    }
+
+    .about-mission-area {
+        padding-top: 20px;
+    }
+
+    .about-top-img img {
+        height: 250px;
+    }
+
+    .work-user-area ul li button {
+        font-size: 18px;
+    }
+    .work-area-content p {
+        font-size: 18px;
+    }
+
+    .facebook-content {
+        padding: 35px 25px;
+    }
+    .facebook-text .btn02 {
+        margin-top: 10px;
+    }
+
+    .singleBlog-content h3 {
+        font-size: 27px;
+    }
+    .singleBlog-content p {
+        font-size: 17px;
+    }
+    .singleBlog-program ul li {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    .singleBlog-performance02 ul li {
+        font-size: 17px;
+        margin: 10px;
+        margin-left: 20px;
+    }
+    .jonePeeter-area {
+        padding-left: 20px;
+    }
+    .singleBlog-top-area h1 {
+        font-size: 38px;
+    }
+    .singleBlog-mid-text p {
+        padding: 0 15px;
+        font-size: 17px;
+    }
+
+
+    .price-left-area h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .trial-mail {
+        flex-direction: column;
+    }
+    .trial-mail .titel-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .trial-mail .btn01 {
+        margin: auto;
+    }
+
+
+    .meaning-content {
+        padding: 40px 0;
+    }
+
+    .contact-accordion-header h2 {
+        font-size: 30px;
+    }
+    .accordion-area-width .accordion-item button {
+        font-size: 17px;
+    }
+    .accordion-area-width .accordion-item p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .form-name input, .form-company input {
+        padding: 15px;
+        font-size: 17px;
+    }
+    
+    .popular-content h3 {
+        font-size: 24px;
+    }
+    .popular-content p {
+        font-size: 17px;
+    }
+    .popular-link a {
+        font-size: 15px;
+    }
+    .popular-image ul li {
+        margin: 0 8px 0 0;
+    }
+    .popular-image ul li .btn01 {
+        padding: 10px 32px;
+    }
+
+    .footer-container  {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width:480px){
+
+    .btn01, .btn02, .btn03, .titel-btn {
+        padding: 10px 28px;
+    } 
+
+    .header-button .btn03 {
+        margin-left: 7px;
+        padding: 6px 7px 6px 20px;
+    }
+
+    .popular-content h3 {
+        padding-right: 0;
+    }
+
+    .facebook-text h3 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .top-header h1 {
+        font-size: 35px;
+    }
+
+    .contactUs-top a {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .price-table {
+        display: none;
+    }
+
+    .singleBlog-top-area h1 {
+        font-size: 30px;
+    }
+
+    .contactUs-form {
+        padding: 50px;
+    }
+    .accordion-area-width .accordion-item button {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .footer-apps {
+        flex-direction: column;
+        margin: auto;
+        max-width: 58%;
+        text-align: center;
+    }
+    .footer-apps .btn01 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+@media all and (max-width:400px){
+
+    .header-button {
+        flex-direction: column;
+        width: 56%;
+        text-align: center;
+        margin: auto;
+    }
+    .menu-bars .btn02 {
+        display: none;
+    } 
+
+    .about-top-img img {
+        height: 200px;
+    }
+
+    .header-button .btn03 {
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 6px 20px;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .contactUs-form {
+        padding: 40px 20px;
+    }
+
+    .popular-image ul li .btn01 {
+        padding: 5px 20px;
+    }
+
+    .footer-apps {
+        max-width: 76%;
+    }
+}
